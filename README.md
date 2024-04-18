@@ -28,7 +28,6 @@ In this paper, we pretrain a detector to acquire object prior knowledge. We have
 
 ## Visualization
 The car sizes before and after applying our method is visualized as follows：  
-![before](plot_34_1.jpg) 
-![after](plot_34_2.jpg)  
+<img src="plot_34_1.jpg" alt="before" width="400"><img src="plot_34_2.jpg" alt="after" width="400">
 Below is the simple framework of this work:   
 ![SimpleFramework](Fig1.jpg)
