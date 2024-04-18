@@ -27,4 +27,5 @@ The self-relabeled dataset based on UADETRAC will be public when this paper get 
 In this paper, we pretrain a detector to acquire object prior knowledge. We have provided the pretrained checkpoint as above. The detector is shown in [VGG_C.py](VGG_C.py) And the whole training code of the detector will also be public soon.
 
 ## Visualization
-
+The car sizes before and after applying our method is visualized as follows：  
+![before](vis_results/plot_34_1.jpg)![before](vis_results/plot_34_2.jpg)
