@@ -29,7 +29,6 @@ In this paper, we pretrain a detector to acquire object prior knowledge. We have
 ## Visualization
 The car sizes before and after applying our method is visualized as follows：  
 ![before](https://github.com/HotChieh/DDRL/tree/main/vis_result/plot_34_1.jpg) 
-
-![after]([https://github.com/HotChieh/DDRL/tree/main/vis_result/plot_34_2.jpg)
-Below is the simple framework of this work:  
+![after]([https://github.com/HotChieh/DDRL/tree/main/vis_result/plot_34_2.jpg)  
+Below is the simple framework of this work:   
 ![SimpleFramework](https://github.com/HotChieh/DDRL/tree/main/vis_result/Fig1.jpg)
