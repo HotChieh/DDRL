@@ -88,12 +88,12 @@ __C.GAMMA = 0.90
 # landmark 数量
 __C.LANDMARK_NUM = 1
 # reward
-__C.reward_terminal_action = 3
+__C.reward_terminal_action = 3*5
 __C.reward_movement_action = 5
 __C.reward_invalid_movement_action = -5
 __C.reward_remove_action = 1
 # buffer capacity
-__C.BUFFER_CAP = 1280
+__C.BUFFER_CAP = 20480
 
 
 # exp*************************exp
