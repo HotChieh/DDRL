@@ -111,7 +111,7 @@ class similarity(object):
         # self.H, self.W  = self.input.shape[1], self.input.shape[2]
         self.visual =False
         self.load_model(multi_GPU=True)
-        torch.cuda.set_device(1)
+        torch.cuda.set_device(0)
         self.det_net.cuda()
         self.det_net.eval()
         
@@ -122,7 +122,7 @@ class similarity(object):
         self.theta = np.arctan(np.tan(self.alpha)*(1-2*self.vp_line/self.H))
         # self.load_model(multi_GPU=True)
         with torch.no_grad():
-            torch.cuda.set_device(1)
+            torch.cuda.set_device(0)
             self.input = Variable(torch.tensor(self.input).unsqueeze(0)).cuda()
 
             heatmap, wh = self.det_net(self.input)
