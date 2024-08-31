@@ -19,7 +19,7 @@ Run ```python train.py```
 
 You can download UA-DETRAC dataset [here](https://universe.roboflow.com/cs474-ug2-vehicle-detection/ua-detrac-rvwkg/dataset/2). 
 Note that we build a vanishing point dataset based on UADETRAC dataset to validate the effectiveness of the proposed method. 
-Because we think this contribution is small, we ignore this contribution in the paper.
+Because we think this contribution is small, we ignore this contribution in the manuscript.
 The self-relabeled dataset based on UADETRAC will be public when this paper get a revision comment.
 
 
