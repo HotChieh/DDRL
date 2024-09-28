@@ -1,4 +1,4 @@
-# Distantly Supervised Deep Reinforcement Learning for Object Distribution Estimation in Real World
+# Distantly Supervised Reinforcement Localization for Real-World Object Distribution Estimation
 ## Training Preparation
 ### ● Environment
 ☑️pytorch 1.8.1  
